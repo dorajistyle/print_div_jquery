@@ -13,10 +13,10 @@ It's a simple print div Jquery Script
 
 **NOTE:** This script is using Jquery library(http://jquery.com).          
 
+----
 
 ### Usage
 
-----
 #### print_div(div_id, stylesheet[](optional), title_of_div(optional))
 
 Examples
@@ -31,7 +31,7 @@ Examples
 	title = $("#print_title").html()
 	print_div("my_div",styleSheets, title)
 
-----
+
 #### print_div_iframe(div_id, stylesheet[](optional),title_of div(optional),print_confirm_text(optional))
 
 **NOTE:** If you want to use this function, You require JqueryUI library(http://jqueryui.com/).
