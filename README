@@ -1,46 +1,53 @@
-Print Div JQuery Script
-========================
-Print Div JQuery Script
+# Print Div JQuery Script
+
+## Print Div JQuery Script
+
 https://github.com/dorajistyle/print_div_script
 It's a simple print div Jquery Script
-by dorajistyle (http://dorajistyle.pe.kr)
+
+### Installation
+* Put this script(coffeescript or javascript) file into your javascript library.
+
+**NOTE:** This script is using Jquery library(http://jquery.com).          
+
+### Usage
+* print_div_iframe method require Jquery-UI library.
 
 
 ----
-Installation
-Put this script(coffeescript or javascript) file into your javascript library.
-
-----
-Usage
-print_div_iframe method require Jquery-UI library.
-
-
-----
-print_div(div_id, stylesheet[](optional), title of div(optional))
+print_div(div_id, stylesheet[](optional), title_of_div(optional))
 
 Examples
 
-print_div('my_div')
-styleSheets = []
-styleSheets.push("http://"+window.location.host+'/assets/print_div.css')
-styleSheets.push("http://"+window.location.host+'/assets/print_div2.css')
-title = $("#print_title").html()
-print_div("my_div",styleSheets, title)
+    // Print div
+	print_div('my_div')
+
+    // Print div with title and stylesheet
+	styleSheets = []
+	styleSheets.push("http://"+window.location.host+'/assets/print_div.css')
+	styleSheets.push("http://"+window.location.host+'/assets/print_div2.css')
+	title = $("#print_title").html()
+	print_div("my_div",styleSheets, title)
 
 ----
-print_div_iframe(div_id, stylesheet[](optional),title of div(optional),print_confirm_text(optional))
+print_div_iframe(div_id, stylesheet[](optional),title_of div(optional),print_confirm_text(optional))
+
+**NOTE:** If you want to use this function, You require JqueryUI library(http://jqueryui.com/).
 
 Examples
+	
+	// Print div using JQueryUI Dialog
+	print_div_iframe('my_div')
 
-print_div_iframe('my_div')
-
-styleSheets = []
-styleSheets.push("http://"+window.location.host+'/assets/print_div.css')
-styleSheets.push("http://"+window.location.host+'/assets/print_div2.css')
-title = $("#print_title").html()
-print_div_iframe("my_div",styleSheets,title,"Print Confirm")
+	// Print div using JQueryUI Dialog with title and stylesheet
+	styleSheets = []
+	styleSheets.push("http://"+window.location.host+'/assets/print_div.css')
+	styleSheets.push("http://"+window.location.host+'/assets/print_div2.css')
+	title = $("#print_title").html()
+	print_div_iframe("my_div",styleSheets,title,"Print Confirm")
 
 ________________________
 
-License
-MIT-LICENSE
+## Attributions
+
+This Jquery Script was made by [JoongSeob Vito Kim](http://dorajistyle.pe.kr). It's under the MIT license.
