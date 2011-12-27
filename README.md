@@ -1,21 +1,23 @@
 # Print Div JQuery Script
 
+
 ## Print Div JQuery Script
 
 https://github.com/dorajistyle/print_div_script
+
 It's a simple print div Jquery Script
+
 
 ### Installation
 * Put this script(coffeescript or javascript) file into your javascript library.
 
 **NOTE:** This script is using Jquery library(http://jquery.com).          
 
-### Usage
-* print_div_iframe method require Jquery-UI library.
 
+### Usage
 
 ----
-print_div(div_id, stylesheet[](optional), title_of_div(optional))
+#### print_div(div_id, stylesheet[](optional), title_of_div(optional))
 
 Examples
 
@@ -30,7 +32,7 @@ Examples
 	print_div("my_div",styleSheets, title)
 
 ----
-print_div_iframe(div_id, stylesheet[](optional),title_of div(optional),print_confirm_text(optional))
+#### print_div_iframe(div_id, stylesheet[](optional),title_of div(optional),print_confirm_text(optional))
 
 **NOTE:** If you want to use this function, You require JqueryUI library(http://jqueryui.com/).
 
@@ -50,4 +52,5 @@ ________________________
 
 ## Attributions
 
-This Jquery Script was made by [JoongSeob Vito Kim](http://dorajistyle.pe.kr). It's under the MIT license.
+This Jquery Script was made by [JoongSeob Vito Kim](http://www.dorajistyle.pe.kr/p/about-me.html). 
+It's under the MIT license.
